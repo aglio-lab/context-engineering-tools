@@ -1,0 +1,73 @@
+name: Validate catalog and links
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 8 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate machine-readable catalog
+        run: python scripts/generate_catalog.py
+      - name: Ensure generated files are current
+        run: git diff --exit-code -- data/tools.json data/tools.csv
+
+  links:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Markdown links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 2
+            --retry-wait-time 2
+            --accept 200,206,429
+            README.md CONTRIBUTING.md MAINTENANCE.md
+
+  monthly-review:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open monthly human-review checklist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const month = new Date().toISOString().slice(0, 7);
+            const title = `Monthly directory review: ${month}`;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: "open", per_page: 100
+            });
+            if (!issues.some(issue => issue.title === title)) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body: [
+                  `Complete the checklist in [MAINTENANCE.md](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/main/MAINTENANCE.md).`,
+                  "", "- [ ] Check primary links and redirects",
+                  "- [ ] Verify lifecycle, names, and availability markers",
+                  "- [ ] Re-check quantitative claims against primary sources",
+                  "- [ ] Review missing, duplicate, and miscategorized entries",
+                  "- [ ] Regenerate and validate JSON/CSV",
+                  "- [ ] Update the last-reviewed date and exact counts",
+                  "- [ ] Publish the `YYYY.MM` release",
+                  "", "Close this issue with a summary of additions, removals, and lifecycle changes."
+                ].join("\n")
+              });
+            }

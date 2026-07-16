@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this list, please cite it as below. For reproducible citations, cite a monthly release or commit permalink."
+title: "The Comprehensive List of Context Engineering Tools"
+abstract: "a curated, source-linked directory of open-source and commercial software for assembling, managing, compressing, and evaluating the context supplied to LLMs and AI agents. Includes a machine-readable catalog."
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-16"
+repository-code: "https://github.com/aglio-lab/context-engineering-tools"
+url: "https://github.com/aglio-lab/context-engineering-tools"
+license: CC0-1.0
+keywords:
+  - context-engineering
+  - prompt-engineering
+  - llm-memory
+  - mcp
+  - context-management
+  - prompt-management
+  - long-context
+  - generative-ai
+authors:
+  - name: "aglio-lab"
+    website: "https://github.com/aglio-lab"

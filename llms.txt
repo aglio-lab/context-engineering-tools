@@ -1,0 +1,35 @@
+# The Comprehensive List of Context Engineering Tools
+
+> a curated, source-linked directory of open-source and commercial software for assembling, managing, compressing, and evaluating the context supplied to LLMs and AI agents. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
+
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and follow the same evidence rules.
+
+## Main content
+
+- [Full list](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/README.md): 163 source-linked entries across 15 catalog sections
+- [JSON catalog](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/data/tools.json): structured entity records
+- [CSV catalog](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/data/tools.csv): flat machine-readable index
+- [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/MAINTENANCE.md): review schedule and evidence rules
+
+## Key categories
+
+- Prompt Management and Versioning (10 entries)
+- Context Assembly and Application Frameworks (14 entries)
+- Context Compression and Summarization (9 entries)
+- Long-Context Routing and Processing (8 entries)
+- Agent Memory and State (12 entries)
+- RAG and Retrieval Context (13 entries)
+- Document Parsing, Chunking, and Ingestion (11 entries)
+- Tool Context and Model Context Protocol (20 entries)
+- Token Counting and Context Budgeting (7 entries)
+- Prompt and Context Caching (8 entries)
+- Structured Output and Schemas (10 entries)
+- Context Observability and Debugging (13 entries)
+- Context Quality Evaluation (10 entries)
+- Context Security and Privacy (13 entries)
+
+## Citation
+
+- [CITATION.cff](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/CITATION.cff)
+- Cite as: “The Comprehensive List of Context Engineering Tools” (2026). GitHub. https://github.com/aglio-lab/context-engineering-tools
+- Cite an individual tool using its own repository, documentation, or paper.
