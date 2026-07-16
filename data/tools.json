@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/context-engineering-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 163,
+  "entry_count": 162,
   "category_count": 15,
   "categories": {
     "Prompt Management and Versioning": 10,
@@ -17,7 +17,7 @@
     "Token Counting and Context Budgeting": 7,
     "Prompt and Context Caching": 8,
     "Structured Output and Schemas": 10,
-    "Context Observability and Debugging": 13,
+    "Context Observability and Debugging": 12,
     "Context Quality Evaluation": 10,
     "Context Security and Privacy": 13,
     "Discontinued and Historical Tools": 5
@@ -1505,17 +1505,6 @@
       "status": "active",
       "primary_url": "https://newrelic.com/platform/ai-monitoring",
       "description": "New Relic AI Monitoring instruments supported model libraries and agent frameworks to connect prompts, responses, token consumption, cost, errors, and latency with application performance data.",
-      "secondary_links": []
-    },
-    {
-      "id": "context-observability-and-debugging--confident-ai",
-      "name": "Confident AI",
-      "artifact_type": "tool",
-      "category": "Context Observability and Debugging",
-      "availability": "commercial",
-      "status": "active",
-      "primary_url": "https://www.confident-ai.com",
-      "description": "Confident AI is an AI quality platform for enterprise teams to standardize context and RAG evals plus observability across product teams, with AI governance enforcing the shared quality bar.",
       "secondary_links": []
     },
     {

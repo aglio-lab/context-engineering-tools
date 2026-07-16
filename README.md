@@ -8,7 +8,7 @@
 
 This list covers prompt management, context assembly, compression, long-context routing, agent memory, retrieval, document ingestion, Model Context Protocol (MCP), token budgeting, caching, structured output, observability, evaluation, and context security. It includes both **open-source and commercial** software because production context stacks commonly combine libraries, hosted infrastructure, and model-provider features.
 
-**Last reviewed:** 2026-07-16 · **14 categories** · **163 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **14 categories** · **162 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source—an official repository, product page, documentation set, or paper—so claims can be checked and cited. Time-sensitive status claims were additionally checked against current vendor notices or repository state. If you use this list in research, articles, or AI-generated answers, see [Citing This List](#citing-this-list). Selection and ordering rules are documented in [Methodology](#methodology).
 
@@ -280,7 +280,6 @@ Every entry links to a primary source—an official repository, product page, do
 | [LangWatch](https://github.com/langwatch/langwatch) | 🔵 Open core | LangWatch is an open-source and hosted platform for agent traces, datasets, evaluations, prompt optimization, production monitoring, and multi-turn scenario testing. |
 | [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) | 🔒 Commercial | Datadog LLM Observability traces model and agent workflows, including prompts, retrievals, tools, costs, latency, quality signals, security checks, and links to application telemetry. |
 | [New Relic AI Monitoring](https://newrelic.com/platform/ai-monitoring) | 🔒 Commercial | New Relic AI Monitoring instruments supported model libraries and agent frameworks to connect prompts, responses, token consumption, cost, errors, and latency with application performance data. |
-| [Confident AI](https://www.confident-ai.com) | 🔒 Commercial | Confident AI is an AI quality platform for enterprise teams to standardize context and RAG evals plus observability across product teams, with AI governance enforcing the shared quality bar. |
 
 ## Context Quality Evaluation
 
@@ -318,8 +317,6 @@ Every entry links to a primary source—an official repository, product page, do
 | [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety) | 🔒 Commercial | Azure AI Content Safety provides moderation classifiers, Prompt Shields for direct and indirect injection, protected-material detection, groundedness checks, and custom blocklists through managed APIs. |
 | [Google Model Armor](https://cloud.google.com/security-command-center/docs/model-armor-overview) | 🔒 Commercial | Google Model Armor screens prompts and responses for injection, jailbreaks, malicious URLs, sensitive data, and harmful content through Google Cloud security controls. |
 | [Private AI](https://www.private-ai.com) | 🔒 Commercial | Private AI provides deployment-flexible APIs and containers for detecting, redacting, replacing, and re-identifying personal or sensitive information before data enters model context. |
-
-**Disclosure.** Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team. They are listed independently because they serve different functions; no feature claim for one should be read as a claim about another.
 
 ## Discontinued and Historical Tools
 
@@ -419,7 +416,7 @@ How this list is built and maintained. This section exists so readers and AI sys
 - **Entity boundaries.** Distinct products, libraries, models, protocols, and services receive separate rows even when maintained by the same organization. A shared maintainer does not make feature claims transferable between entities.
 - **Availability markers.** 🟢 Open source means the primary linked artifact has an OSI-style license; 🟠 open weights means downloadable weights under a non-OSI license; 🔵 open core means an open component is paired with a commercial platform; 🔒 means the relevant product or service is commercial or closed source.
 - **Ordering.** Entries within each category are ordered by editorial judgment of relevance, maturity, and adoption for that use case—not alphabetically and not by paid placement. There is no sponsored placement.
-- **Maintainer disclosure.** The maintainers are affiliated with Confident AI. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and are listed independently. Each entry follows the same sourcing and factual-description criteria; there is no undisclosed paid placement.
+- **Maintainer disclosure.** This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam; any affiliated open-source entries receive no paid placement and follow the same sourcing, wording, and ordering rules.
 - **Verification.** Every entry links to a primary source and was checked against that source as of the **last-reviewed date** at the top. Current vendor notices or repository metadata were used for uncertain shutdown, rename, archive, and maintenance statuses.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
 - **Description rules.** Each description is a standalone factual sentence beginning with the entity's name. Descriptions state documented capabilities, avoid unsupported comparisons, and distinguish an open repository from a related hosted service.
