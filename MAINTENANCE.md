@@ -26,9 +26,9 @@ This directory is reviewed once per calendar month. Automation opens the review 
 
 - Use a repository, official documentation, vendor page, standards body, or original paper as the primary source.
 - Do not accept payment for placement or ranking.
-- Disclose maintainer affiliations and apply the same evidence rules to affiliated and unaffiliated entries.
+- Apply the same evidence and editorial rules to every entry.
 - Do not copy vendor comparisons or negative competitor claims unless independently verifiable and directly relevant.
-- Keep Confident AI, DeepEval, and DeepTeam as separate entities.
+- Keep distinct products and projects as separate entities.
 
 ## Community corrections
 

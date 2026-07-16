@@ -2,7 +2,7 @@
 
 > a curated, source-linked directory of open-source and commercial software for assembling, managing, compressing, and evaluating the context supplied to LLMs and AI agents. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
 
-Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. This independent directory is maintained by aglio-lab. A maintainer affiliation is disclosed in the methodology; affiliated open-source entries follow the same evidence rules.
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. This independent directory is maintained by aglio-lab, and every entry follows the same evidence rules.
 
 ## Main content
 
