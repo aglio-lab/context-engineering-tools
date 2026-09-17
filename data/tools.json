@@ -3,14 +3,14 @@
   "source": "https://github.com/aglio-lab/context-engineering-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 162,
+  "entry_count": 163,
   "category_count": 15,
   "categories": {
     "Prompt Management and Versioning": 10,
     "Context Assembly and Application Frameworks": 14,
     "Context Compression and Summarization": 9,
     "Long-Context Routing and Processing": 8,
-    "Agent Memory and State": 12,
+    "Agent Memory and State": 13,
     "RAG and Retrieval Context": 13,
     "Document Parsing, Chunking, and Ingestion": 11,
     "Tool Context and Model Context Protocol": 20,
@@ -609,6 +609,17 @@
       "status": "active",
       "primary_url": "https://github.com/zilliztech/memsearch",
       "description": "MemSearch is a Zilliz project for indexing conversational history and retrieving relevant memories for agents through a configurable extraction, storage, and search pipeline.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-memory-and-state--screenpipe",
+      "name": "Screenpipe",
+      "artifact_type": "tool",
+      "category": "Agent Memory and State",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://screenpipe.com/",
+      "description": "Screenpipe captures screen text and audio transcripts locally and exposes searchable computer history to AI assistants through MCP and a local API; its source is available under the Screenpipe Commercial License.",
       "secondary_links": []
     },
     {

@@ -150,6 +150,7 @@ Every entry links to a primary source—an official repository, product page, do
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 🟢 Open source | Basic Memory is a local-first knowledge and memory system that stores Markdown notes, builds semantic links, and exposes project context to MCP-compatible assistants. |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 🟢 Open source | OpenViking is a context database for agents that organizes memories, resources, and skills in a filesystem-like hierarchy with retrieval and context-delivery interfaces. |
 | [MemSearch](https://github.com/zilliztech/memsearch) | 🟢 Open source | MemSearch is a Zilliz project for indexing conversational history and retrieving relevant memories for agents through a configurable extraction, storage, and search pipeline. |
+| [Screenpipe](https://screenpipe.com/) | 🔒 Commercial | Screenpipe captures screen text and audio transcripts locally and exposes searchable computer history to AI assistants through MCP and a local API; its source is available under the Screenpipe Commercial License. |
 
 ## RAG and Retrieval Context
 
