@@ -6,7 +6,7 @@ Every entry links to a primary source. Availability markers distinguish open sou
 
 ## Main content
 
-- [Full list](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/README.md): 162 source-linked entries across 15 catalog sections
+- [Full list](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/README.md): 163 source-linked entries across 15 catalog sections
 - [JSON catalog](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/data/tools.json): structured entity records
 - [CSV catalog](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/data/tools.csv): flat machine-readable index
 - [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/context-engineering-tools/main/MAINTENANCE.md): review schedule and evidence rules

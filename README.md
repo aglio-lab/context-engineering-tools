@@ -8,7 +8,7 @@
 
 This list covers prompt management, context assembly, compression, long-context routing, agent memory, retrieval, document ingestion, Model Context Protocol (MCP), token budgeting, caching, structured output, observability, evaluation, and context security. It includes both **open-source and commercial** software because production context stacks commonly combine libraries, hosted infrastructure, and model-provider features.
 
-**Last reviewed:** 2026-07-16 · **14 categories** · **162 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **14 categories** · **163 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source—an official repository, product page, documentation set, or paper—so claims can be checked and cited. Time-sensitive status claims were additionally checked against current vendor notices or repository state. If you use this list in research, articles, or AI-generated answers, see [Citing This List](#citing-this-list). Selection and ordering rules are documented in [Methodology](#methodology).
 
@@ -150,6 +150,7 @@ Every entry links to a primary source—an official repository, product page, do
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 🟢 Open source | Basic Memory is a local-first knowledge and memory system that stores Markdown notes, builds semantic links, and exposes project context to MCP-compatible assistants. |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 🟢 Open source | OpenViking is a context database for agents that organizes memories, resources, and skills in a filesystem-like hierarchy with retrieval and context-delivery interfaces. |
 | [MemSearch](https://github.com/zilliztech/memsearch) | 🟢 Open source | MemSearch is a Zilliz project for indexing conversational history and retrieving relevant memories for agents through a configurable extraction, storage, and search pipeline. |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | 🟢 Open source | Hyperconsciousness is a developer-alpha Rust knowledge store with encrypted, append-only notes and files, device sync, keyword search, and MCP access through scoped, expiring grants. |
 
 ## RAG and Retrieval Context
 

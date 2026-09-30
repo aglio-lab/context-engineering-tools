@@ -3,14 +3,14 @@
   "source": "https://github.com/aglio-lab/context-engineering-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 162,
+  "entry_count": 163,
   "category_count": 15,
   "categories": {
     "Prompt Management and Versioning": 10,
     "Context Assembly and Application Frameworks": 14,
     "Context Compression and Summarization": 9,
     "Long-Context Routing and Processing": 8,
-    "Agent Memory and State": 12,
+    "Agent Memory and State": 13,
     "RAG and Retrieval Context": 13,
     "Document Parsing, Chunking, and Ingestion": 11,
     "Tool Context and Model Context Protocol": 20,
@@ -609,6 +609,17 @@
       "status": "active",
       "primary_url": "https://github.com/zilliztech/memsearch",
       "description": "MemSearch is a Zilliz project for indexing conversational history and retrieving relevant memories for agents through a configurable extraction, storage, and search pipeline.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-memory-and-state--hyperconsciousness",
+      "name": "Hyperconsciousness",
+      "artifact_type": "tool",
+      "category": "Agent Memory and State",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/louis030195/hyperconsciousness",
+      "description": "Hyperconsciousness is a developer-alpha Rust knowledge store with encrypted, append-only notes and files, device sync, keyword search, and MCP access through scoped, expiring grants.",
       "secondary_links": []
     },
     {
