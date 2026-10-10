@@ -101,6 +101,8 @@ Every entry links to a primary source—an official repository, product page, do
 | [Vercel AI SDK](https://github.com/vercel/ai) | 🟢 Open source | Vercel AI SDK is a TypeScript toolkit for model-provider abstraction, streaming text and objects, tool calling, agent loops, message conversion, middleware, and frontend chat state. |
 | [smolagents](https://github.com/huggingface/smolagents) | 🟢 Open source | smolagents is Hugging Face's compact agent library for code or tool-calling agents, supporting local and hosted models, sandboxed execution, managed tools, MCP, and multimodal inputs. |
 
+| [Bandpass](https://github.com/MajidAsghariTabrizi/bandpass) | 🟢 Open source | Bandpass is a context compiler for AI agents that ranks, verifies, resolves, and budget-fits items from memory exports, files, Git state, mission state, and evidence sources into inspectable Context Capsules, exposed through MCP tools and a CLI. |
+
 ## Context Compression and Summarization
 
 **Context compression** reduces the information sent or retained while attempting to preserve task-relevant signal. Text methods prune or rewrite prompts; recurrent summaries replace history; KV-cache methods reduce inference memory after tokenization. Compression can discard evidence, so it should be evaluated on the target task.

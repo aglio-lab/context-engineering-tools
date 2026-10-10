@@ -3,11 +3,11 @@
   "source": "https://github.com/aglio-lab/context-engineering-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 162,
+  "entry_count": 163,
   "category_count": 15,
   "categories": {
     "Prompt Management and Versioning": 10,
-    "Context Assembly and Application Frameworks": 14,
+    "Context Assembly and Application Frameworks": 15,
     "Context Compression and Summarization": 9,
     "Long-Context Routing and Processing": 8,
     "Agent Memory and State": 12,
@@ -285,6 +285,17 @@
       "status": "active",
       "primary_url": "https://github.com/huggingface/smolagents",
       "description": "smolagents is Hugging Face's compact agent library for code or tool-calling agents, supporting local and hosted models, sandboxed execution, managed tools, MCP, and multimodal inputs.",
+      "secondary_links": []
+    },
+    {
+      "id": "context-assembly-and-application-frameworks--bandpass",
+      "name": "Bandpass",
+      "artifact_type": "framework-or-library",
+      "category": "Context Assembly and Application Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/MajidAsghariTabrizi/bandpass",
+      "description": "Bandpass is a context compiler for AI agents that ranks, verifies, resolves, and budget-fits items from memory exports, files, Git state, mission state, and evidence sources into inspectable Context Capsules, exposed through MCP tools and a CLI.",
       "secondary_links": []
     },
     {
