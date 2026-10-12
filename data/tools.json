@@ -3,12 +3,12 @@
   "source": "https://github.com/aglio-lab/context-engineering-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 162,
+  "entry_count": 163,
   "category_count": 15,
   "categories": {
     "Prompt Management and Versioning": 10,
     "Context Assembly and Application Frameworks": 14,
-    "Context Compression and Summarization": 9,
+    "Context Compression and Summarization": 10,
     "Long-Context Routing and Processing": 8,
     "Agent Memory and State": 12,
     "RAG and Retrieval Context": 13,
@@ -389,6 +389,17 @@
       "status": "active",
       "primary_url": "https://github.com/Zefan-Cai/KVCache-Factory",
       "description": "KVCache-Factory is a research codebase that collects KV-cache compression methods and evaluation workflows for reducing attention-cache memory during long-context generation.",
+      "secondary_links": []
+    },
+    {
+      "id": "context-compression-and-summarization--tomc-memory",
+      "name": "TOMC Memory",
+      "artifact_type": "tool",
+      "category": "Context Compression and Summarization",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/ZipengWu365/TOMC",
+      "description": "TOMC Memory is an MIT-licensed research preview that prepares supplied histories and explicitly saved task notes on CPU for a token budget through a Python API and local MCP server.",
       "secondary_links": []
     },
     {
